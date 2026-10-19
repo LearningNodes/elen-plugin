@@ -1,0 +1,11 @@
+{
+  "name": "elen",
+  "description": "Elen by Learning Nodes. A shared record of decisions for your bots: check what was already decided before acting, record why after, and replace old decisions in the open.",
+  "version": "0.1.0",
+  "author": { "name": "Learning Nodes" },
+  "homepage": "https://www.learningnodes.com",
+  "repository": "https://github.com/LearningNodes/elen-plugin",
+  "license": "MIT",
+  "keywords": ["elen", "decisions", "decision-records", "bots", "memory", "decisionops", "mcp"],
+  "logo": "assets/logo.svg"
+}
