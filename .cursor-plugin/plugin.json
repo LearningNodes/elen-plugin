@@ -7,5 +7,5 @@
   "repository": "https://github.com/LearningNodes/elen-plugin",
   "license": "MIT",
   "keywords": ["elen", "decisions", "decision-records", "bots", "memory", "decisionops", "mcp"],
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.png"
 }
