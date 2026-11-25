@@ -11,7 +11,7 @@ Your workspace keeps one record of decisions, shared by every bot on this accoun
 
 A decision-like action is a choice that will shape later work by you, another bot or a person: prices and offers, audience and targeting, tone and brand rules, tools and vendors, schedules and commitments, what to skip, policies, technical design.
 
-Before you take one, call `elen_suggest` once with the question in plain words and a domain. Then:
+Before you take one, call `elen_suggest` once with the question in plain words. You may add a domain. It only puts decisions filed under that topic first. The search covers every topic, so a different topic word never hides a decision. Then:
 
 - An active decision answers your question and its basis still holds: follow it and name its id in your output ("Following dec:… from 12 Oct: …").
 - What you are about to do conflicts with an active decision: do not override it silently. Show the person the decision and its reason, and offer to replace it. On a yes, call `elen_supersede` with `oldDecisionId`, the new decision and what changed.
@@ -41,7 +41,7 @@ Do not record routine steps, drafts, facts or status updates. When the person de
 Draft the record yourself and never ask the person to fill anything in. After recording, show it in one or two lines ("Recorded: Tuesday over Friday for the newsletter, because open rates were higher.") so the person can correct it. If they correct it, call `elen_supersede` with the corrected version.
 
 - `question`: the choice, as "X vs Y for Z". Pass `questionId` when `elen_suggest` showed the same question.
-- `domain`: one word or slug: pricing, audience, content, outreach, events, product, engineering, operations, finance, legal, or your team's own.
+- `domain`: one word or slug: pricing, audience, marketing, content, outreach, events, product, engineering, operations, finance, legal, or your team's own.
 - `decisionText`: what you chose and why, in three sentences or fewer.
 - `constraints`: the facts and limits that bounded the choice. They are the basis a later bot will test.
 - `evidence`: where the facts came from (link, file, message, data) and who decided.

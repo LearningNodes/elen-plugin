@@ -8,6 +8,8 @@ Elen gives your Bots a shared record of decisions. Before a Bot makes a choice i
 
 From the Grok Bot or Cursor marketplace, choose Authorize, sign in or create a free Learning Nodes account, pick a workspace. Decisions appear at https://workstation.learningnodes.com/bots.
 
+The Workstation shows a connection under the name the app gives when it connects. Grok Bot's connector gives the name "Cursor", so the sign-in page says "Connect Cursor to Elen" and the connection is listed as Cursor under Connected apps at https://workstation.learningnodes.com/settings/api-keys. You disconnect it there.
+
 ## Elen on your computer
 
 The same tools run locally with `npx -y @learningnodes/elen-mcp`. Connect to the same workspace with a key from https://workstation.learningnodes.com/settings/api-keys. See [Elen online](https://github.com/LearningNodes/Elen#elen-online) in the Elen repository README for connected mode.
