@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Elen">
+  <title>Elen</title>
+  <rect width="512" height="512" fill="#0A0A0F"/>
+  <path d="M153 112V400M153 112H363M153 256H303M153 400H363" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="153" cy="112" r="36" fill="#FFFFFF"/>
+  <circle cx="153" cy="256" r="36" fill="#FFFFFF"/>
+  <circle cx="153" cy="400" r="36" fill="#FFFFFF"/>
+  <circle cx="363" cy="112" r="30" fill="#8C4FF1"/>
+  <circle cx="303" cy="256" r="30" fill="#8C4FF1"/>
+  <circle cx="363" cy="400" r="30" fill="#8C4FF1"/>
+</svg>
